@@ -2,39 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* RWA Marketplace Design System - Professional, secure, real-estate inspired
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 210 20% 98%;
+    --foreground: 215 25% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 215 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 215 25% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 220 70% 15%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary-foreground: 215 25% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 215 13% 94%;
+    --muted-foreground: 215 16% 50%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 160 84% 39%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 215 20% 88%;
+    --input: 215 20% 88%;
+    --ring: 220 70% 15%;
+
+    /* RWA Marketplace specific tokens */
+    --gold: 45 90% 55%;
+    --gold-foreground: 45 30% 15%;
+    --trust: 210 50% 40%;
+    --trust-foreground: 210 40% 98%;
+    --secure: 160 60% 35%;
+    --secure-foreground: 0 0% 100%;
+    --value: 25 85% 55%;
+    --value-foreground: 25 30% 15%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(220 70% 15%), hsl(210 50% 40%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(215 13% 98%));
+    --gradient-secure: linear-gradient(90deg, hsl(160 60% 35%), hsl(160 84% 39%));
+    --gradient-value: linear-gradient(135deg, hsl(45 90% 55%), hsl(25 85% 55%));
+
+    /* Shadows */
+    --shadow-card: 0 4px 20px hsl(215 25% 15% / 0.08);
+    --shadow-secure: 0 8px 30px hsl(160 60% 35% / 0.15);
+    --shadow-elevated: 0 12px 40px hsl(220 70% 15% / 0.12);
 
     --radius: 0.5rem;
 
